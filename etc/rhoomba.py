@@ -13,7 +13,7 @@ def main():
 	clear_row() # cleaning the last row right below the cage line.
 
 def clear_row():
-	while front_is_clear() # no cage line in front of karel.
+	while front_is_clear(): # no cage line in front of karel.
 		safe_pick()
 		move()
 	safe_pick() # the last column is blocked, so pick the beeper out of the while loop.
