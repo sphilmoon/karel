@@ -25,7 +25,7 @@ def beeper_stairs():
     put_beeper()
 
 def descend():
-    turn_right()
+    turn_right() 
     move_to_wall()
     turn_left()
 
@@ -63,3 +63,4 @@ def wipe_beepers():
 def go_to_beeper():
     while no_beepers_present():
         move()
+        
